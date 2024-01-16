@@ -1,6 +1,6 @@
-package com.employee.employeeManagement.service;
+package com.employee.employeeManagement.Service;
 
-import com.employee.employeeManagement.dto.EmployeeDto;
+import com.employee.employeeManagement.Dto.EmployeeDto;
 
 import java.util.List;
 

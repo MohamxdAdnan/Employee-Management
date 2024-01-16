@@ -1,10 +1,10 @@
-package com.employee.employeeManagement.service.impl;
+package com.employee.employeeManagement.Service.Impl;
 
-import com.employee.employeeManagement.dto.EmployeeDto;
-import com.employee.employeeManagement.entity.Employee;
-import com.employee.employeeManagement.exception.ResourceNotFoundException;
-import com.employee.employeeManagement.repository.EmployeeRepository;
-import com.employee.employeeManagement.service.EmployeeService;
+import com.employee.employeeManagement.Dto.EmployeeDto;
+import com.employee.employeeManagement.Entity.Employee;
+import com.employee.employeeManagement.Exception.ResourceNotFoundException;
+import com.employee.employeeManagement.Repository.EmployeeRepository;
+import com.employee.employeeManagement.Service.EmployeeService;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;

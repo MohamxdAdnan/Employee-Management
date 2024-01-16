@@ -1,13 +1,15 @@
-package com.employee.employeeManagement.entity;
+package com.employee.employeeManagement.Entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 @Entity
 @Table(name = "employee")
 public class Employee {

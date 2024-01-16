@@ -1,14 +1,13 @@
-package com.employee.employeeManagement.controller;
+package com.employee.employeeManagement.Controller;
 
-import com.employee.employeeManagement.dto.EmployeeDto;
-import com.employee.employeeManagement.service.EmployeeService;
+import com.employee.employeeManagement.Dto.EmployeeDto;
+import com.employee.employeeManagement.Service.EmployeeService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -22,21 +21,6 @@ import java.util.List;
 public class EmployeeController {
 
     private EmployeeService employeeService;
-
-//    @GetMapping("/home")
-//    public String home() {
-//        return "index";
-//    }
-//
-//    @GetMapping("/employees")
-//    public String employee() {
-//        return "employees";
-//    }
-//
-//    @GetMapping("/new_employee")
-//    public String newEmployee() {
-//        return "index";
-//    }
 
     @Operation(
             summary = "Create Employee Resource"
