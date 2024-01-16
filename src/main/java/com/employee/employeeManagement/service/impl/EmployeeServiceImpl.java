@@ -15,8 +15,8 @@ import java.util.stream.Collectors;
 @Service
 @AllArgsConstructor
 public class EmployeeServiceImpl implements EmployeeService {
-    EmployeeRepository employeeRepository;
-    ModelMapper modelMapper;
+    private EmployeeRepository employeeRepository;
+    private ModelMapper modelMapper;
     @Override
     public EmployeeDto createEmployee(EmployeeDto employeeDto) {
         Employee employee = modelMapper.map(employeeDto, Employee.class);

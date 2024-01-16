@@ -12,25 +12,25 @@ import java.util.List;
 
 @Controller
 @AllArgsConstructor
-//@RequestMapping("/api/employees")
+@RequestMapping("/api/employees")
 public class EmployeeController {
 
-    EmployeeService employeeService;
+    private EmployeeService employeeService;
 
-    @GetMapping("/home")
-    public String home() {
-        return "index";
-    }
-
-    @GetMapping("/employees")
-    public String employee() {
-        return "employees";
-    }
-
-    @GetMapping("/new_employee")
-    public String newEmployee() {
-        return "index";
-    }
+//    @GetMapping("/home")
+//    public String home() {
+//        return "index";
+//    }
+//
+//    @GetMapping("/employees")
+//    public String employee() {
+//        return "employees";
+//    }
+//
+//    @GetMapping("/new_employee")
+//    public String newEmployee() {
+//        return "index";
+//    }
 
     @PostMapping("/create")
     public ResponseEntity<EmployeeDto> createEmployee(@RequestBody EmployeeDto employeeDto) {
