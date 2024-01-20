@@ -15,6 +15,7 @@ import java.util.List;
 @Tag(
         name = "CRUD API's for Employee Resource"
 )
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/employees")
