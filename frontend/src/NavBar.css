@@ -1,0 +1,21 @@
+.NavItems{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.Navbar{
+    border: solid;
+
+    padding: 10px;
+    background: #fffbfb;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li{
+
+  }
